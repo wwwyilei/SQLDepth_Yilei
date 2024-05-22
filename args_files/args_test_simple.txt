@@ -1,0 +1,17 @@
+--backbone resnet_lite
+--load_pretrained_model 
+--load_pt_folder D:\GitHub\SfMNeXt-Impl\model_output\kitti_resnet_lite_pretrain\models\weights_0
+--load_weights_folder D:\GitHub\SfMNeXt-Impl\model_output\kitti_resnet_lite_pretrain\models\weights_0
+--image_path D:/GitHub/Output/test
+--height 192 
+--width 640
+--num_epochs 25
+--model_dim 32
+--patch_size 16
+--query_nums 64
+--dim_out 64
+--scheduler_step_size 15
+--num_features 256
+--num_layers 50
+--max_depth 80.0
+--ext png

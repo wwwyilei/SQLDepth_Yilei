@@ -1,0 +1,26 @@
+--backbone resnet_lite
+--data_path D:/GitHub/Monovit/kitti_data
+--dataset kitti 
+--model_name kitti_resnet_lite_pretrain
+--load_pretrained_model 
+--load_pt_folder D:\GitHub\SfMNeXt-Impl\KITTI_192x640_models
+--split eigen_zhou
+--eval_split eigen 
+--height 192 
+--width 640
+--batch_size 4
+--num_epochs 25
+--model_dim 32
+--patch_size 16
+--query_nums 64
+--dim_out 64
+--scheduler_step_size 15
+--num_features 256
+--num_layers 50
+--eval_mono
+--load_weights_folder D:\GitHub\SfMNeXt-Impl\KITTI_192x640_models
+--post_process
+--min_depth 0.001
+--max_depth 80.0
+
+

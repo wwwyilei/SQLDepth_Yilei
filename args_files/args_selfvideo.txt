@@ -1,0 +1,26 @@
+--backbone resnet_lite
+--data_path D:/Datasets/selfvideo/training
+--model_name selfvideo_new
+--load_adam
+--load_pretrained_model
+--load_pt_folder C:\Users\ELI\tmp\mdp\models\weights_4
+--load_weights_folder C:\Users\ELI\tmp\mdp\models\weights_4
+--dataset selfvideo
+--eval_split selfvideo 
+--height 320
+--width 1024
+--scheduler_step_size 15
+--batch_size 4
+--num_epochs 10
+--model_dim 32
+--patch_size 20
+--dim_out 128
+--query_nums 128
+--num_features 256
+--num_layers 50
+--eval_mono
+--diff_lr
+--post_process
+--min_depth 0.001
+--max_depth 80.0
+--save_pred_disps
